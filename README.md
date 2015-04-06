@@ -8,3 +8,19 @@ in a small 60mb container image.
 ```
 docker run -d -p <host ip>:<host port>:5601 -e KIBANA_ES_URL=<elasticsearch url>  bobrik/kibana4
 ```
+
+@Sfrek:
+-------
+
+### Build:
+
+```
+docker build -t <tag file> .
+```
+
+### Run:
+
+```
+docker-compose up
+```
+
